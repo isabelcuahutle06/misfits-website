@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+        <title>Misfits Organization</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+</html>
+<body> 
+<nav>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="events.html">EVENTS</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+    <h1>Misfits Organization</h1>
+    <p>Fashion, Music, Activism</p>
+    <footer>
+        <img src="images/isaglizzy.png" 
+        alt="Isaglizzy Production logo">
+        <p>isaglizzy productions</p>
+    </footer>
+    <script>
+        window.addEventListener("load", function() {
+            const loader = document.getElementById("loading-screen");
+           if (loader) { 
+            setTimeout(function () {
+                loader.classList.add("fade-out");
+                setTimeout(function () {
+                    loader.remove = "none";
+                }, 800);
+            }, 1500);
+            }
+        });
+    </script>
+    </body>
+<div id="loading-screen"></div>
+</html>
